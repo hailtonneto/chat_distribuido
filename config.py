@@ -2,3 +2,4 @@ HOST = 'localhost'
 PORT = 5000
 MAX_CLIENTS = 10
 ADMIN_USER = "admin"
+ADMIN_PASSWORD = "12345"
