@@ -71,3 +71,25 @@
 2025-09-30 20:28:40,074 - INFO - Gabriel conectado de ('127.0.0.1', 55118)
 2025-09-30 20:29:00,343 - INFO - admin conectado de ('127.0.0.1', 55122)
 2025-09-30 20:29:06,878 - INFO - Servidor encerrado remotamente pelo administrador.
+2025-09-30 20:52:08,355 - INFO - Servidor iniciado em localhost:5000
+2025-09-30 20:52:15,775 - INFO - Gabriel conectado de ('127.0.0.1', 50658)
+2025-09-30 20:52:31,169 - INFO - Vinicius conectado de ('127.0.0.1', 50659)
+2025-09-30 20:57:38,938 - INFO - Servidor iniciado em localhost:5000
+2025-09-30 20:57:49,826 - INFO - Neto conectado de ('127.0.0.1', 57454)
+2025-09-30 20:57:52,551 - INFO - Chaves conectado de ('127.0.0.1', 57455)
+2025-09-30 20:58:10,028 - INFO - admin conectado de ('127.0.0.1', 57456)
+2025-09-30 20:58:18,554 - INFO - Servidor encerrado remotamente pelo administrador.
+2025-09-30 21:02:31,345 - INFO - Servidor iniciado em localhost:5000
+2025-09-30 21:02:40,919 - ERROR - Erro com cliente ('127.0.0.1', 55878): Expecting value: line 1 column 1 (char 0)
+2025-09-30 21:04:14,802 - INFO - Servidor iniciado em localhost:5000
+2025-09-30 21:04:22,423 - ERROR - Erro com cliente ('127.0.0.1', 49889): Expecting value: line 1 column 1 (char 0)
+2025-09-30 21:04:22,423 - INFO - Desconhecido desconectado.
+2025-09-30 21:04:30,221 - ERROR - Erro com cliente ('127.0.0.1', 49890): Expecting value: line 1 column 1 (char 0)
+2025-09-30 21:04:30,221 - INFO - Desconhecido desconectado.
+2025-09-30 21:04:47,062 - ERROR - Erro com cliente ('127.0.0.1', 49891): Expecting value: line 1 column 1 (char 0)
+2025-09-30 21:04:47,062 - INFO - Desconhecido desconectado.
+2025-09-30 21:06:33,641 - INFO - Servidor iniciado em localhost:5000
+2025-09-30 21:06:42,361 - INFO - Neto conectado de ('127.0.0.1', 58393)
+2025-09-30 21:06:47,143 - INFO - Gabriel conectado de ('127.0.0.1', 58394)
+2025-09-30 21:07:07,956 - INFO - admin conectado de ('127.0.0.1', 58396)
+2025-09-30 21:07:14,572 - INFO - Servidor encerrado remotamente pelo administrador.

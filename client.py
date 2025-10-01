@@ -24,7 +24,16 @@ def start_client():
     client.connect((HOST, PORT))
 
     username = input("Digite seu nome de usuário: ")
-    client.send(username.encode())
+    if not username:
+        print("Nome de usuário não pode ser vazio.")
+        return
+
+    password = ""
+    if username == "admin":
+        password = input("Digite a senha do administrador: ")
+
+    auth_data = json.dumps({"username": username, "password": password})
+    client.send(auth_data.encode())
 
     thread = threading.Thread(target=receive_messages, args=(client,))
     thread.daemon = True

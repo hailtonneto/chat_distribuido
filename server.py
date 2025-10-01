@@ -4,7 +4,7 @@ import json
 import logging
 import os
 from datetime import datetime
-from config import HOST, PORT, MAX_CLIENTS, ADMIN_USER
+from config import HOST, PORT, MAX_CLIENTS, ADMIN_USER, ADMIN_PASSWORD
 from utils import format_message, validate_message
 
 clients = {}
@@ -27,7 +27,16 @@ def broadcast(message, sender_socket):
 
 def handle_client(client_socket, addr):
     try:
-        username = client_socket.recv(1024).decode()
+        auth_raw = client_socket.recv(1024).decode()
+        auth_data = json.loads(auth_raw)
+        username = auth_data.get("username")
+        password = auth_data.get("password")
+
+        if username == ADMIN_USER and password != ADMIN_PASSWORD:
+            client_socket.send("Senha incorreta para administrador.".encode())
+            client_socket.close()
+            return
+
         with lock:
             clients[client_socket] = username
         logging.info(f"{username} conectado de {addr}")
@@ -38,25 +47,44 @@ def handle_client(client_socket, addr):
             raw_msg = client_socket.recv(1024).decode()
             if not raw_msg:
                 break
-            if validate_message(raw_msg):
-                msg_data = json.loads(raw_msg)
-                content = msg_data["message"]
-
-                if content == "/encerrar" and username == ADMIN_USER:
-                    broadcast(format_message("Servidor", "Servidor encerrado pelo administrador."), None)
-                    logging.info("Servidor encerrado remotamente pelo administrador.")
-                    os._exit(0)  # Encerra o processo imediatamente
-                else:
-                    formatted = format_message(username, content)
-                    broadcast(formatted, client_socket)
-            else:
+            if not validate_message(raw_msg):
                 logging.warning(f"Mensagem inválida de {username}: {raw_msg}")
+                continue
+
+            msg_data = json.loads(raw_msg)
+            content = msg_data["message"]
+
+            if content == "/encerrar":
+                if username != ADMIN_USER:
+                    logging.warning(f"Usuário não autorizado tentou encerrar o servidor: {username}")
+                    continue
+                broadcast(format_message("Servidor", "Servidor encerrado pelo administrador."), None)
+                logging.info("Servidor encerrado remotamente pelo administrador.")
+                os._exit(0)
+
+            if content == "/limparlog":
+                if username != ADMIN_USER:
+                    logging.warning(f"Usuário não autorizado tentou limpar o log: {username}")
+                    continue
+                try:
+                    with open("logs/server.log", "w") as log_file:
+                        log_file.write("")  # Apaga o conteúdo
+                    logging.info("Log do servidor foi limpo pelo administrador.")
+                    broadcast(format_message("Servidor", "Log do servidor foi limpo pelo administrador."), None)
+                except Exception as e:
+                    logging.error(f"Erro ao limpar log: {e}")
+                continue
+
+            formatted = format_message(username, content)
+            broadcast(formatted, client_socket)
+
     except Exception as e:
         logging.error(f"Erro com cliente {addr}: {e}")
     finally:
         with lock:
             left_user = clients.get(client_socket, "Desconhecido")
-            del clients[client_socket]
+            if client_socket in clients:
+                del clients[client_socket]
         client_socket.close()
         logging.info(f"{left_user} desconectado.")
         broadcast(format_message("Servidor", f"{left_user} saiu do chat."), None)
