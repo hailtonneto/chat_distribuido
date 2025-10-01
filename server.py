@@ -10,7 +10,6 @@ from utils import format_message, validate_message
 clients = {}
 lock = threading.Lock()
 
-# Configura o log
 logging.basicConfig(filename='logs/server.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
