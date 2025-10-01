@@ -12,6 +12,7 @@ Este projeto implementa um sistema de chat distribuído utilizando a arquitetura
 - Simulação de paralelismo com `multiprocessing` para testes de carga
 - Autenticação simples para administrador com senha
 - Comando `/encerrar` para desligar o servidor remotamente
+- Comando `/limparlog` para apagar o conteúdo do log do servidor
 - Logs de eventos e mensagens no servidor
 - Controle de conexões e sincronização com `Lock`
 
@@ -58,15 +59,10 @@ python tests/stress_test.py
 
 ---
 
-## 🔐 Comando Especial
+## 🔐 Comando Especiais (somente para administrador)
 
-- Apenas o usuário `admin` com senha correta pode usar o comando:
-
-```
-/encerrar
-```
-
-Esse comando encerra o servidor e desconecta todos os clientes.
+- `/encerrar` → Encerra o servidor e desconecta todos os clientes
+- `/limparlog` → Apaga o conteúdo do arquivo server.log
 
 ---
 
@@ -76,6 +72,7 @@ Esse comando encerra o servidor e desconecta todos os clientes.
 - **Paralelismo:** Processos para simular múltiplos clientes
 - **Sincronização:** `threading.Lock()` para proteger recursos compartilhados
 - **Comunicação:** Sockets TCP e mensagens em formato JSON
+- **Segurança:** Autenticação simples com verificação de senha para comandos críticos
 
 ---
 
