@@ -9,28 +9,32 @@ def receive_messages(client_socket):
     while True:
         try:
             raw_msg = client_socket.recv(1024).decode()
-            if raw_msg:
-                msg_data = json.loads(raw_msg)
-                print(f"[{msg_data['timestamp']}] {msg_data['sender']}: {msg_data['message']}")
-            else:
+            if not raw_msg:
                 break
-        except:
+            msg_data = json.loads(raw_msg)
+            print(f"[{msg_data['timestamp']}] {msg_data['sender']}: {msg_data['message']}")
+        except Exception:
             print("[Erro] Conexão encerrada pelo servidor.")
-            client_socket.close()
             break
+    try:
+        client_socket.close()
+    except:
+        pass
 
 def start_client():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client.connect((HOST, PORT))
+    try:
+        client.connect((HOST, PORT))
+    except Exception as e:
+        print(f"[Erro] Falha ao conectar ao servidor: {e}")
+        return
 
     username = input("Digite seu nome de usuário: ")
     if not username:
         print("Nome de usuário não pode ser vazio.")
         return
 
-    password = ""
-    if username == "admin":
-        password = input("Digite a senha do administrador: ")
+    password = input("Digite a senha do administrador: ") if username == "admin" else ""
 
     auth_data = json.dumps({"username": username, "password": password})
     client.send(auth_data.encode())
@@ -44,14 +48,16 @@ def start_client():
         try:
             msg = input()
             if msg.lower() == "/sair":
-                client.close()
                 break
             formatted = format_message(username, msg)
             client.send(formatted.encode())
-        except:
+        except Exception:
             print("[Erro] Falha ao enviar mensagem.")
-            client.close()
             break
+    try:
+        client.close()
+    except:
+        pass
 
 if __name__ == "__main__":
     start_client()

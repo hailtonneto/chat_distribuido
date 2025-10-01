@@ -1,95 +1,503 @@
-2025-09-30 20:14:14,904 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:14:21,210 - INFO - Hailton conectado de ('127.0.0.1', 62286)
-2025-09-30 20:14:46,940 - INFO - Gabriel conectado de ('127.0.0.1', 62291)
-2025-09-30 20:15:23,952 - ERROR - Erro com cliente ('127.0.0.1', 62286): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:15:23,952 - INFO - Hailton desconectado.
-2025-09-30 20:15:27,240 - ERROR - Erro com cliente ('127.0.0.1', 62291): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:15:27,240 - INFO - Gabriel desconectado.
-2025-09-30 20:19:48,147 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:20:58,081 - INFO - Bot0 conectado de ('127.0.0.1', 53366)
-2025-09-30 20:20:58,091 - INFO - Bot1 conectado de ('127.0.0.1', 53367)
-2025-09-30 20:20:58,147 - INFO - Bot2 conectado de ('127.0.0.1', 53368)
-2025-09-30 20:20:58,185 - INFO - Bot3 conectado de ('127.0.0.1', 53369)
-2025-09-30 20:20:58,229 - INFO - Bot4 conectado de ('127.0.0.1', 53370)
-2025-09-30 20:20:58,273 - INFO - Bot5 conectado de ('127.0.0.1', 53371)
-2025-09-30 20:20:58,286 - INFO - Bot6 conectado de ('127.0.0.1', 53372)
-2025-09-30 20:20:58,319 - INFO - Bot7 conectado de ('127.0.0.1', 53373)
-2025-09-30 20:20:58,334 - INFO - Bot8 conectado de ('127.0.0.1', 53374)
-2025-09-30 20:20:58,364 - INFO - Bot9 conectado de ('127.0.0.1', 53375)
-2025-09-30 20:21:01,082 - ERROR - Erro com cliente ('127.0.0.1', 53366): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,082 - INFO - Bot0 desconectado.
-2025-09-30 20:21:01,093 - ERROR - Erro com cliente ('127.0.0.1', 53367): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,093 - INFO - Bot1 desconectado.
-2025-09-30 20:21:01,151 - ERROR - Erro com cliente ('127.0.0.1', 53368): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,151 - INFO - Bot2 desconectado.
-2025-09-30 20:21:01,188 - ERROR - Erro com cliente ('127.0.0.1', 53369): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,188 - INFO - Bot3 desconectado.
-2025-09-30 20:21:01,230 - ERROR - Erro com cliente ('127.0.0.1', 53370): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,230 - INFO - Bot4 desconectado.
-2025-09-30 20:21:01,273 - ERROR - Erro com cliente ('127.0.0.1', 53371): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,273 - INFO - Bot5 desconectado.
-2025-09-30 20:21:01,290 - ERROR - Erro com cliente ('127.0.0.1', 53372): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,295 - INFO - Bot6 desconectado.
-2025-09-30 20:21:01,322 - ERROR - Erro com cliente ('127.0.0.1', 53373): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,322 - INFO - Bot7 desconectado.
-2025-09-30 20:21:01,338 - ERROR - Erro com cliente ('127.0.0.1', 53374): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,338 - INFO - Bot8 desconectado.
-2025-09-30 20:21:01,367 - ERROR - Erro com cliente ('127.0.0.1', 53375): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:01,367 - INFO - Bot9 desconectado.
-2025-09-30 20:21:44,592 - INFO - Hailton conectado de ('127.0.0.1', 50938)
-2025-09-30 20:21:48,051 - INFO - Bot0 conectado de ('127.0.0.1', 64876)
-2025-09-30 20:21:48,078 - INFO - Bot1 conectado de ('127.0.0.1', 64877)
-2025-09-30 20:21:48,122 - INFO - Bot2 conectado de ('127.0.0.1', 64878)
-2025-09-30 20:21:48,186 - INFO - Bot3 conectado de ('127.0.0.1', 64879)
-2025-09-30 20:21:48,204 - INFO - Bot4 conectado de ('127.0.0.1', 64880)
-2025-09-30 20:21:48,283 - INFO - Bot5 conectado de ('127.0.0.1', 64881)
-2025-09-30 20:21:48,320 - INFO - Bot6 conectado de ('127.0.0.1', 64882)
-2025-09-30 20:21:48,345 - INFO - Bot7 conectado de ('127.0.0.1', 64883)
-2025-09-30 20:21:48,373 - INFO - Bot8 conectado de ('127.0.0.1', 64884)
-2025-09-30 20:21:51,047 - ERROR - Erro com cliente ('127.0.0.1', 64876): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,048 - INFO - Bot0 desconectado.
-2025-09-30 20:21:51,093 - ERROR - Erro com cliente ('127.0.0.1', 64877): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,093 - INFO - Bot1 desconectado.
-2025-09-30 20:21:51,122 - ERROR - Erro com cliente ('127.0.0.1', 64878): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,122 - INFO - Bot2 desconectado.
-2025-09-30 20:21:51,188 - ERROR - Erro com cliente ('127.0.0.1', 64879): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,188 - INFO - Bot3 desconectado.
-2025-09-30 20:21:51,206 - ERROR - Erro com cliente ('127.0.0.1', 64880): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,206 - INFO - Bot4 desconectado.
-2025-09-30 20:21:51,284 - ERROR - Erro com cliente ('127.0.0.1', 64881): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,284 - INFO - Bot5 desconectado.
-2025-09-30 20:21:51,325 - ERROR - Erro com cliente ('127.0.0.1', 64882): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,325 - INFO - Bot6 desconectado.
-2025-09-30 20:21:51,347 - ERROR - Erro com cliente ('127.0.0.1', 64883): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,347 - INFO - Bot7 desconectado.
-2025-09-30 20:21:51,375 - ERROR - Erro com cliente ('127.0.0.1', 64884): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-2025-09-30 20:21:51,375 - INFO - Bot8 desconectado.
-2025-09-30 20:27:49,457 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:28:00,977 - INFO - Servidor encerrado manualmente com Ctrl+C.
-2025-09-30 20:28:20,221 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:28:25,769 - INFO - Hailton conectado de ('127.0.0.1', 55114)
-2025-09-30 20:28:40,074 - INFO - Gabriel conectado de ('127.0.0.1', 55118)
-2025-09-30 20:29:00,343 - INFO - admin conectado de ('127.0.0.1', 55122)
-2025-09-30 20:29:06,878 - INFO - Servidor encerrado remotamente pelo administrador.
-2025-09-30 20:52:08,355 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:52:15,775 - INFO - Gabriel conectado de ('127.0.0.1', 50658)
-2025-09-30 20:52:31,169 - INFO - Vinicius conectado de ('127.0.0.1', 50659)
-2025-09-30 20:57:38,938 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 20:57:49,826 - INFO - Neto conectado de ('127.0.0.1', 57454)
-2025-09-30 20:57:52,551 - INFO - Chaves conectado de ('127.0.0.1', 57455)
-2025-09-30 20:58:10,028 - INFO - admin conectado de ('127.0.0.1', 57456)
-2025-09-30 20:58:18,554 - INFO - Servidor encerrado remotamente pelo administrador.
-2025-09-30 21:02:31,345 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 21:02:40,919 - ERROR - Erro com cliente ('127.0.0.1', 55878): Expecting value: line 1 column 1 (char 0)
-2025-09-30 21:04:14,802 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 21:04:22,423 - ERROR - Erro com cliente ('127.0.0.1', 49889): Expecting value: line 1 column 1 (char 0)
-2025-09-30 21:04:22,423 - INFO - Desconhecido desconectado.
-2025-09-30 21:04:30,221 - ERROR - Erro com cliente ('127.0.0.1', 49890): Expecting value: line 1 column 1 (char 0)
-2025-09-30 21:04:30,221 - INFO - Desconhecido desconectado.
-2025-09-30 21:04:47,062 - ERROR - Erro com cliente ('127.0.0.1', 49891): Expecting value: line 1 column 1 (char 0)
-2025-09-30 21:04:47,062 - INFO - Desconhecido desconectado.
-2025-09-30 21:06:33,641 - INFO - Servidor iniciado em localhost:5000
-2025-09-30 21:06:42,361 - INFO - Neto conectado de ('127.0.0.1', 58393)
-2025-09-30 21:06:47,143 - INFO - Gabriel conectado de ('127.0.0.1', 58394)
-2025-09-30 21:07:07,956 - INFO - admin conectado de ('127.0.0.1', 58396)
-2025-09-30 21:07:14,572 - INFO - Servidor encerrado remotamente pelo administrador.
+2025-10-01 09:49:17,998 - INFO - Log do servidor foi limpo pelo administrador.
+2025-10-01 09:49:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60532): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:49:41,317 - INFO - admin desconectado.
+2025-10-01 09:49:43,937 - ERROR - Erro com cliente ('127.0.0.1', 60529): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:49:43,937 - INFO - Gabriel desconectado.
+2025-10-01 09:49:47,018 - ERROR - Erro com cliente ('127.0.0.1', 60528): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:49:47,019 - INFO - Hailton desconectado.
+2025-10-01 09:50:02,405 - INFO - Servidor encerrado manualmente com Ctrl+C.
+2025-10-01 09:54:00,834 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 09:54:06,069 - INFO - Neto conectado de ('127.0.0.1', 60595)
+2025-10-01 09:54:11,492 - INFO - Gabriel conectado de ('127.0.0.1', 60598)
+2025-10-01 09:54:28,097 - ERROR - Erro com cliente ('127.0.0.1', 60595): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:54:28,097 - INFO - Neto desconectado.
+2025-10-01 09:56:52,602 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 09:56:58,724 - INFO - Neto conectado de ('127.0.0.1', 60628)
+2025-10-01 09:57:01,281 - INFO - Gabriel conectado de ('127.0.0.1', 60627)
+2025-10-01 09:57:16,680 - ERROR - Erro com cliente ('127.0.0.1', 60628): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:57:16,680 - INFO - Neto desconectado.
+2025-10-01 09:57:20,238 - ERROR - Erro com cliente ('127.0.0.1', 60627): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 09:57:20,238 - INFO - Gabriel desconectado.
+2025-10-01 09:59:34,883 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 09:59:58,503 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:00:07,701 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:00:24,765 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:01:39,593 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:01:48,995 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:02:55,716 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:02:56,722 - INFO - Servidor encerrado manualmente com Ctrl+C.
+2025-10-01 10:02:58,045 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:03:00,073 - INFO - Servidor encerrado manualmente com Ctrl+C.
+2025-10-01 10:03:04,688 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:03:09,194 - INFO - Neto conectado de ('127.0.0.1', 60700)
+2025-10-01 10:03:11,555 - ERROR - Erro com cliente ('127.0.0.1', 60700): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:03:11,555 - INFO - Neto desconectado.
+2025-10-01 10:03:11,555 - ERROR - Erro com cliente ('127.0.0.1', 60700): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:03:11,556 - INFO - Desconhecido desconectado.
+2025-10-01 10:03:11,555 - ERROR - Erro com cliente ('127.0.0.1', 60700): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:03:11,556 - INFO - Desconhecido desconectado.
+2025-10-01 10:03:11,556 - INFO - Servidor encerrado manualmente com Ctrl+C.
+2025-10-01 10:03:11,555 - ERROR - Erro com cliente ('127.0.0.1', 60700): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:03:11,556 - INFO - Desconhecido desconectado.
+2025-10-01 10:03:32,229 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:03:39,299 - INFO - Neto conectado de ('127.0.0.1', 60703)
+2025-10-01 10:03:41,347 - INFO - Leticia conectado de ('127.0.0.1', 60704)
+2025-10-01 10:03:43,197 - INFO - None conectado de ('127.0.0.1', 60703)
+2025-10-01 10:03:50,708 - INFO - None conectado de ('127.0.0.1', 60704)
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,315 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,316 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,318 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,319 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,320 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,321 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,324 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,324 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,324 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,324 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,324 - INFO - None desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,324 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,325 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,326 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,317 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,327 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,328 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,329 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,330 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,331 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,332 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,322 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,333 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,334 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,335 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,323 - ERROR - Erro com cliente ('127.0.0.1', 60704): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,336 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,340 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,348 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,350 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,351 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,351 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,643 - ERROR - Erro com cliente ('127.0.0.1', 60703): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,643 - ERROR - Erro com cliente ('127.0.0.1', 60703): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,643 - ERROR - Erro com cliente ('127.0.0.1', 60703): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:05:41,643 - INFO - None desconectado.
+2025-10-01 10:05:41,643 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:41,643 - INFO - Desconhecido desconectado.
+2025-10-01 10:05:45,954 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:05:46,968 - INFO - Servidor encerrado manualmente com Ctrl+C.
+2025-10-01 10:05:48,382 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:05:53,860 - INFO - Neto conectado de ('127.0.0.1', 60733)
+2025-10-01 10:05:59,211 - INFO - Leticia conectado de ('127.0.0.1', 60736)
+2025-10-01 10:06:00,499 - INFO - Leticia desconectado.
+2025-10-01 10:06:00,499 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:06:00,499 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+2025-10-01 10:06:00,499 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:00,499 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:00,676 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:00,676 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:01,677 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:01,677 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:02,692 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:02,692 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:03,703 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:03,703 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:04,705 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:04,705 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:05,707 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:05,707 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:06,718 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:06,718 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:07,733 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:07,733 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:08,740 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:08,740 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:09,753 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:09,753 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:10,767 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:10,767 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:11,780 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:11,780 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:12,794 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:12,794 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,797 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:13,797 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,834 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,834 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,834 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,835 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,835 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,835 - ERROR - Erro com cliente ('127.0.0.1', 60733): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:06:13,835 - INFO - Neto desconectado.
+2025-10-01 10:06:13,835 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,835 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,835 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,835 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:13,835 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:14,812 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:14,812 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:15,825 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:15,825 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:16,829 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:16,829 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:17,830 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:17,830 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:18,849 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:18,849 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:19,864 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:19,864 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:20,867 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:20,867 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:21,869 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:21,869 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:22,882 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:22,883 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:23,882 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:23,882 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:24,883 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:24,883 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:25,896 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:25,896 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:26,898 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:26,898 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:27,910 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:27,910 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:28,914 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:28,914 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:29,926 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:29,926 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:30,939 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:30,939 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:31,943 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:31,943 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:32,948 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:32,948 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:33,951 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:33,951 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:34,963 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:34,963 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:35,973 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:35,973 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:36,981 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:36,981 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:37,995 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:37,995 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:38,996 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:38,996 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:40,009 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:40,009 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:41,019 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:41,020 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:42,019 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:42,019 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:43,033 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:43,033 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:44,037 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:44,037 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:45,039 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:45,039 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:46,040 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:46,040 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:47,041 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:47,041 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:48,041 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:48,041 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:49,046 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:49,046 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:50,048 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:50,048 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:51,051 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:51,051 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:52,055 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:52,055 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:53,056 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:53,056 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:54,058 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:54,058 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:55,062 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:55,062 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:56,066 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:56,066 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:57,067 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:57,067 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:58,080 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:58,080 - INFO - Desconhecido desconectado.
+2025-10-01 10:06:59,082 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:06:59,082 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:00,085 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:00,085 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:01,099 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:01,099 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:02,112 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:02,112 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:03,115 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:03,115 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:04,115 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:04,115 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:05,120 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:05,120 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:06,136 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:06,136 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:07,151 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:07,151 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:08,154 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:08,154 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:09,158 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:09,158 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:10,162 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:10,162 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:11,176 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:11,176 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:12,178 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:12,178 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:13,187 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:13,187 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:14,198 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:14,198 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:15,199 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:15,199 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:16,202 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:16,202 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:17,215 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:17,215 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:18,219 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:18,219 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:19,234 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:19,234 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:20,237 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:20,237 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:21,241 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:21,241 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:22,242 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:22,242 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:23,256 - ERROR - Erro com cliente ('127.0.0.1', 60736): [WinError 10038] Foi tentada uma operação em algum item que não é um soquete
+2025-10-01 10:07:23,256 - INFO - Desconhecido desconectado.
+2025-10-01 10:07:28,287 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:07:34,193 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:07:39,183 - INFO - Neto conectado de ('127.0.0.1', 60748)
+2025-10-01 10:07:46,450 - INFO - Leticia conectado de ('127.0.0.1', 60751)
+2025-10-01 10:08:58,247 - ERROR - Erro com cliente ('127.0.0.1', 60748): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:08:58,248 - INFO - Neto desconectado.
+2025-10-01 10:08:58,536 - ERROR - Erro com cliente ('127.0.0.1', 60751): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-10-01 10:08:58,536 - INFO - Leticia desconectado.
+2025-10-01 10:09:07,556 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:09:20,056 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:10:46,120 - INFO - Servidor iniciado em localhost:5000
+2025-10-01 10:10:52,042 - INFO - Neto conectado de ('127.0.0.1', 60765)
+2025-10-01 10:10:56,634 - INFO - Leticia conectado de ('127.0.0.1', 60769)
+2025-10-01 10:11:17,495 - INFO - admin conectado de ('127.0.0.1', 60775)
+2025-10-01 10:11:20,336 - INFO - Servidor encerrado remotamente pelo administrador.
